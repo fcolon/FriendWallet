@@ -4,5 +4,10 @@
   },
   "main": "main.js",
   "name": "tns-template-hello-world-ng",
-  "version": "3.1.1"
+  "version": "3.1.1",
+  "rxjs": "5.4.3",
+  "dependencies": {
+    "nativescript-facebook-login": "^1.0.1"
+  },
+  "devDependencies": {}
 }

@@ -1,0 +1,28 @@
+.login-page {
+    background-color: #ecf3fa;
+    color: #6469fc;
+
+    .logo {
+        height: 50%;
+        width: 50%;
+    }
+
+    .login {
+        color: white;
+        background-color: #6469fc;
+    }
+
+    .submit {
+        background-color: #6469fc;
+        color: white;
+    }
+    .center {
+        text-align: center;
+        font-size: 30dp;
+    }
+    .forgot, .submit {
+        margin-bottom: 10dp;
+    }
+}
+
+// #b57846 brown

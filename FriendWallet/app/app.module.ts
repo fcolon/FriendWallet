@@ -2,10 +2,15 @@ import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
+// import { FacebookLoginHandler } from "./node_modules/nativescript-facebook-login/platforms/android/libs/facebook-release.aar";
+// import { FacebookLoginHandler } from "./node_modules/nativescript-facebook-login";
 
-import { ItemService } from "./item/item.service";
-import { ItemsComponent } from "./item/items.component";
-import { ItemDetailComponent } from "./item/item-detail.component";
+import { ResultService } from "./components/result/result.service";
+import { HomeComponent } from "./components/home/home.component";
+import { LoginComponent } from "./components/login/login.component";
+import { CreateComponent } from "./components/create/create.component";
+import { ResultsComponent } from "./components/result/results/results.component";
+import { ResultDetailComponent } from "./components/result/result-detail/result-detail.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -19,15 +24,18 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        AppRoutingModule,
     ],
     declarations: [
         AppComponent,
-        ItemsComponent,
-        ItemDetailComponent
+        HomeComponent,
+        ResultsComponent,
+        LoginComponent,
+        CreateComponent,
+        ResultDetailComponent
     ],
     providers: [
-        ItemService
+        ResultService,
     ],
     schemas: [
         NO_ERRORS_SCHEMA

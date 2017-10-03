@@ -1,12 +1,1 @@
-/*
-In NativeScript, the app.css file is where you place CSS rules that
-you would like to apply to your entire application. Check out
-http://docs.nativescript.org/ui/styling for a full list of the CSS
-selectors and properties you can use to style UI components.
-
-/*
-In many cases you may want to use the NativeScript core theme instead
-of writing your own CSS rules. For a full list of class names in the theme
-refer to http://docs.nativescript.org/ui/theme.
-*/
-@import 'nativescript-theme-core/css/core.light.css';
+@import url(css/android/custom.css);.label{color:white;background-color:#a83e00;text-align:center;width:100%;font-size:20dp}.line2,.line4{font-size:50dp}.person{background-image:url("http://fran.mit.edu/images/mascot.jpg")}.login-page{background-color:#ecf3fa;color:#6469fc}.login-page .logo{height:50%;width:50%}.login-page .login{color:white;background-color:#6469fc}.login-page .submit{background-color:#6469fc;color:white}.login-page .center{text-align:center;font-size:30dp}.login-page .forgot,.login-page .submit{margin-bottom:10dp}
